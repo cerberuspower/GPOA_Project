@@ -103,7 +103,7 @@ int main(void)
     HAL_Delay(500);
     while(1)
     {
-        if (Timer1(1000))
+        if (Timer1(500))
         {
             printf("X axis: %d Y axis: %d Z axis: %d \r",XYZ_vect[0],XYZ_vect[1],XYZ_vect[2]);
             BSP_ACCELERO_GetXYZ(XYZ_vect);
